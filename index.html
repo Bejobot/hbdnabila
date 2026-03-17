@@ -323,6 +323,7 @@ audio = new Audio('' + linkmp3.src);
 
     // Buka Envelope
     function bukaEnvelope() {
+		audio.play();
       const envelope = document.getElementById('envelope');
       envelope.classList.remove('close');
       envelope.classList.add('open');
